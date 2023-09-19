@@ -14,7 +14,9 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('Notes'),
       ),
-      body: const Column(),
+      body: const Column(
+        children: [],
+      ),
     );
   }
 }
